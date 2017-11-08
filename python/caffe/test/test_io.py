@@ -1,7 +1,7 @@
 import numpy as np
 import unittest
 
-import caffe
+import caffe_windows as caffe
 
 class TestBlobProtoToArray(unittest.TestCase):
 

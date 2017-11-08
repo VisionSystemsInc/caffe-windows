@@ -4,7 +4,7 @@ import os
 import numpy as np
 import six
 
-import caffe
+import caffe_windows as caffe
 from test_net import simple_net_file
 
 

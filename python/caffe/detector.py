@@ -16,7 +16,7 @@ proposal mode is available at
 import numpy as np
 import os
 
-import caffe
+import caffe_windows as caffe
 
 
 class Detector(caffe.Net):

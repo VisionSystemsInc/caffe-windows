@@ -5,7 +5,7 @@ import numpy as np
 import six
 from collections import OrderedDict
 
-import caffe
+import caffe_windows as caffe
 
 
 def simple_net_file(num_output):

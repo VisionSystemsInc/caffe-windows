@@ -7,7 +7,7 @@ This helps crop and align feature maps among other uses.
 
 from __future__ import division
 import numpy as np
-from caffe import layers as L
+from caffe_windows import layers as L
 
 PASS_THROUGH_LAYERS = ['AbsVal', 'BatchNorm', 'Bias', 'BNLL', 'Dropout',
                        'Eltwise', 'ELU', 'Log', 'LRN', 'Exp', 'MVN', 'Power',

@@ -3,8 +3,9 @@ import unittest
 
 from google.protobuf import text_format
 
-import caffe.draw
-from caffe.proto import caffe_pb2
+import caffe_windows as caffe
+import caffe_windows.draw
+from caffe_windows.proto import caffe_pb2
 
 def getFilenames():
     """Yields files in the source tree which are Net prototxts."""

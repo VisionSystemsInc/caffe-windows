@@ -1,7 +1,7 @@
 import sys
 import unittest
 
-import caffe
+import caffe_windows as caffe
 
 
 class TestNCCL(unittest.TestCase):

@@ -5,7 +5,7 @@ Classifier is an image classifier specialization of Net.
 
 import numpy as np
 
-import caffe
+import caffe_windows as caffe
 
 
 class Classifier(caffe.Net):

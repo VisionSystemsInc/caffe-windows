@@ -3,10 +3,10 @@ import unittest
 import numpy as np
 import random
 
-import caffe
-from caffe import layers as L
-from caffe import params as P
-from caffe.coord_map import coord_map_from_to, crop
+import caffe_windows as caffe
+from caffe_windows import layers as L
+from caffe_windows import params as P
+from caffe_windows.coord_map import coord_map_from_to, crop
 
 
 def coord_net_spec(ks=3, stride=1, pad=0, pool=2, dstride=2, dpad=0):

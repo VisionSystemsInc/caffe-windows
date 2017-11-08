@@ -1,6 +1,6 @@
 import unittest
 
-import caffe
+import caffe_windows as caffe
 
 class TestLayerTypeList(unittest.TestCase):
 

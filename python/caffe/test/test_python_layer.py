@@ -3,7 +3,7 @@ import tempfile
 import os
 import six
 
-import caffe
+import caffe_windows as caffe
 
 
 class SimpleLayer(caffe.Layer):

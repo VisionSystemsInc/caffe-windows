@@ -4,7 +4,7 @@ Trains a model using one or more GPUs.
 """
 from multiprocessing import Process
 
-import caffe
+import caffe_windows as caffe
 
 
 def train(

@@ -1,8 +1,8 @@
 import unittest
 import tempfile
-import caffe
-from caffe import layers as L
-from caffe import params as P
+import caffe_windows as caffe
+from caffe_windows import layers as L
+from caffe_windows import params as P
 
 def lenet(batch_size):
     n = caffe.NetSpec()

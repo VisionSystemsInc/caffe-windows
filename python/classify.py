@@ -11,7 +11,7 @@ import argparse
 import glob
 import time
 
-import caffe
+import caffe_windows as caffe
 
 
 def main(argv):

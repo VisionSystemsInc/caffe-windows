@@ -21,7 +21,7 @@ import os
 import argparse
 import time
 
-import caffe
+import caffe_windows as caffe
 
 CROP_MODES = ['list', 'selective_search']
 COORD_COLS = ['ymin', 'xmin', 'ymax', 'xmax']
